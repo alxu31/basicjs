@@ -1,0 +1,53 @@
+:root {
+    --neongreen: #39ff14;
+    --neonpurple: #7d12ff;
+    --neonorange: #FF5F1F;
+    text-align: center;
+    background: black;
+}
+
+.input {
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    grid-template-rows: repeat(12, 8.3%);
+    width: 100%;
+    height: 180px;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    color: var(--neongreen);
+}
+
+label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--neonpurple);
+    font-size: 15px;
+}
+
+button {
+    margin: 40px;
+    width: 250px;
+    height: 60px;
+    background: rgb(52, 52, 52);
+    color: var(--neongreen);
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+#result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 900;
+    color: var(--neonorange);
+    width: 500px;
+    height: 100px;
+    margin: 20px;
+}
+
