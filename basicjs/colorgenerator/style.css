@@ -1,0 +1,32 @@
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    text-align: center;
+    height: 100vh;
+}
+
+button {
+    position: relative;
+    top: 50%;
+    width: 20%;
+    height: 15%;
+    background: black;
+    color: white;
+    font-size: 2rem;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+#hexDisplay {
+    position: relative;
+    top: 25%;
+    font-size: 1.8rem;
+    color: rgb(255, 255, 255); 
+    mix-blend-mode: difference;
+}
